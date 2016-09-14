@@ -37,7 +37,7 @@ setup(name='medialog.issuu',
       include_package_data=True,
       zip_safe=False,
       install_requires=['setuptools',
-                        'requests >= 0.9, < 1.0'
+                        'requests'
                         # -*- Extra requirements: -*-
                         ],
       tests_require=tests_require,
